@@ -165,6 +165,12 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
                 ->name('admin.orders.shipping.update');
 });
 
+Route::get('/storage-link', function () {
+    $targetFolder = storage_path( 'app/public' ); // path to upload directory
+    $linkFolder= $_SERVER['DOCUMENT_ROOT'].'/storage';
+    symlink( $targetFolder, $linkFolder);
+    });
+
 //end
 
 require __DIR__ . '/auth.php';

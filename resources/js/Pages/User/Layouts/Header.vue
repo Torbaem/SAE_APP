@@ -12,7 +12,7 @@ const cart = computed(() => usePage().props.cart);
             class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >
             <Link :href="route('home')" class="flex items-center">
-                    <img src="/img/LogoSae.png" alt="logo" class="w-50 h-20  mr-2">
+                    <img src="/img/LogoSAE.png" alt="logo1" class="w-50 h-20  mr-2">
             </Link>
             <div v-if="canLogin" class="flex items-center md:order-2">
                 <div class="mr-4">

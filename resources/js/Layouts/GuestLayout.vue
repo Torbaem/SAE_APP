@@ -7,7 +7,7 @@
     <div class="relative min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
         <!-- Imagen de fondo -->
         <img 
-                    src="/img/fondoLogin.jpg" 
+                    src="/img/FondoLogin.jpg" 
                     alt="Background" 
                     class="absolute top-0 left-0 w-full h-full object-cover"
                 >
